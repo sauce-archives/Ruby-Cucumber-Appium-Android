@@ -1,4 +1,4 @@
-Feature: Sample Emulator Test
+Feature: Sample Android Test
   
   Scenario: Add a Contact
     Given I click on the add contact button
