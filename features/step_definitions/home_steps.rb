@@ -1,5 +1,5 @@
 Given /^I click on the add contact button$/ do
-    addContactButton = @driver.find_element(:name, "Add Contact")
+    addContactButton = @driver.find_element(:class_name, "android.widget.Button")
     addContactButton.click()
 end
 
@@ -10,5 +10,5 @@ When /^I enter a name and email$/ do
 end
 
 Then /^I click the Save button$/ do
-	@driver.find_element(:name, "Save").click
+	@driver.find_element(:class_name, "android.widget.Button").click
 end
