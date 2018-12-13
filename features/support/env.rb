@@ -12,7 +12,7 @@ Before do | scenario |
       app: "#{ENV['app']}",
       deviceOrientation: 'portrait',
       name: "#{scenario.feature.name} - #{scenario.name}",
-      appiumVersion: '1.5.3',
+      appiumVersion: '1.9.1',
       browserName: ''
     }
   }
